@@ -7,43 +7,6 @@
 @import url("https://xcruxiex.github.io/themes/core/custom-font.css");
 @import url("https://xcruxiex.github.io/themes/core/settings-icons.css");
 
-:root {
-    --backgroundColor01: #1F1F2E;
-    --backgroundColor02: #161622;
-    --mainColor: rgba(241, 65, 109, 1);
-    --gradientColor01: #00f260;
-    --gradientColor02: #0575e6;
-
-    /* Better Hljs */
-    --backgroundCode: rgba(241, 65, 109, 0.1);
-    --backgroundName: rgba(0, 0, 0, 0.2);
-
-    /* Radial Status */
-    --rs-small-spacing: 2px;
-    --rs-large-spacing: 3px;
-    --rs-width: 2px;
-    --rs-avatar-shape: 50%;
-    --rs-online-color: #43b581;
-    --rs-idle-color: #faa61a;
-    --rs-dnd-color: #f04747;
-    --rs-offline-color: #636b75;
-    --rs-streaming-color: #643da7;
-    --rs-invisible-color: #747f8d;
-    --rs-phone-visible: block;
-    --rs-phone-color: var(--rs-online-color);
-
-    /* bartender */
-    --bartender-width: 4ch;  /* Width for displayed icon. Adjust depending on your needs [Default: 4ch] */
-
-    /* Unread Animation :
-    none -> static point.
-    pulse -> pulsating point
-    */
-    --unread-animation: pulse;
-
-    --customFont: "gg sans", sans-serif;
-}
-
 .markup_f8f345 code{
     background-color: var(--backgroundCode);
     border-width: 2px !important;
